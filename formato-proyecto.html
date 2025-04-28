@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title data-es="Texto en español" data-en="Texto en inglés">*** Título página *** | Jose Caniumil</title>
+        <link rel="stylesheet" href="css/proyecto.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="index.html">
+                    <button href="index.html" class="home" data-es="Texto en español" data-en="Texto en inglés">Volver</button>
+                </a>
+            </div>
+            <div class="contenedor">
+                <div class="btn-idioma">
+                    <button class="material-icons translate" onclick="cambiarIdioma('en')" ondblclick="cambiarIdioma('es')">
+                        translate
+                    </button>
+                </div>
+                <h1 data-es="Texto en español" data-en="Texto en inglés">Nombre proyecto</h1>
+            </div>
+        </header>
+
+        <section class="section">
+                <div class="contenedor-proyectos">
+                    <h2 data-es="Nombre del proyecto" data-en="Name project">Nombre del Proyecto</h2>
+                    <p data-es="<strong>Fecha de publicación:</strong>" data-en="<strong>Publication date:</strong>"><strong>Fecha publicación:</strong> *** Insertar fecha ***</p>
+                    <p data-es="<strong>Última actualización:</strong>" data-en="<strong>Last update:</strong>"><strong>Última actualización:</strong> *** Insertar fecha ***</p>
+                    <p data-es="<strong>Descripción:</strong> Este proyecto..." data-en="<strong>Description:</strong> This project..."><strong>Descripción:</strong> *** Insertar descripción ***</p>
+                    <div class="galeria-imagenes">
+                        <img src="img/princess-kenny.png" alt="*** Descripción ***">
+                        <img src="img/nombre-imagen.extensión" alt="*** Descripción ***">
+                        <img src="img/nombre-imagen.extensión" alt="*** Descripción ***">
+                        <img src="img/nombre-imagen.extensión" alt="*** Descripción ***">
+                    </div>
+
+                    <div class="btn">
+                        <a href="#*** link del repositorio ***" target="_blank" class="btn-repositorio" data-es="Ver repositorio" data-en="See repository">Ver repositorio</a>
+                    </div>
+                </div>
+        </section>
+
+        <footer>
+            <div class="contenedor">
+                <p data-es="&copy; 2025 Jose Caniumil. Todos los derechos reservados." data-en="&copy; 2025 Jose Caniumil. All rights reserved.">
+                    &copy; 2025 Jose Caniumil. Todos los derechos reservados.
+                </p>
+            </div>
+        </footer>
+
+        <script src="js/proyecto.js"></script>
+    </body>
+</html>
